@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/* Body */
+body{
+    background-color: #293f50;
+    color: #888;
+  }
+
+/* ===== Header & Footer ===== */
+
+.primary-header{
+    margin: 0 20px;
+    color: #fff;
+    /* font-style, font-variant, font-weight, font-size, line-height, and font-family. */
+    font: italic small-caps bold 14px/22px Arial;
+
+}
+
+.title{
+    border-top: 5px solid green;
+    float: left;
+    padding: 40px 0 20px 0;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.tagline{
+    font-size: large;
+    margin-top: 68px;
+    margin-bottom: 18px;
+    text-align: right;
+
+}
+
+.primary-nav{
+    font-size: small;
+    text-transform: uppercase;
+    float: right;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+  }
+
+.nav a{
+    color: #648880;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.nav a:hover{
+  color: rgb(0, 195, 255);
+}
+
+.primary-footer{
+    margin: 0 20px;
+    color: #fff;
+    /* font-style, font-variant, font-weight, font-size, line-height, and font-family. */
+    font: italic small-caps bold 14px/22px Arial;
+
+}
+
+.footer-mark{
+  float: left;
+  font-weight: 400;
+  margin: 13px 0;
+}
+
+
+/*  ==== tlog ==== */
+
+.tlogs{
+    background: rgb(226, 226, 226);
+    padding: 1px 10px;
+
+}
+
+.content-class{
+    border: 1px solid #616161;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color: #293f50;
+}
+.content-head{
+    
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #616161;
+    line-height: 24px;
+    width: max-content;
+    border-bottom: 4px solid #3647537a;
+}
+
+.content{
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 28px;
+}
+
+.content-response{
+    margin: 10px 0;
+}
+
+.content-response .btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  color: #293f50;
+  text-decoration: none;
+  font-size: small;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.content-response .btn-alt {
+  border: 1px solid #616161;
+  padding: 3px 5px;
+}
+
+.content-response .btn-alt:hover{
+  background: #888;
+  color: #fff;
+}
